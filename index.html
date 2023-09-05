@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <script src="index.js"></script>
+    <title>Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome!</h1>
+        <div class="box">
+            <form>
+
+                <!-- Grid -->
+                <div class="grid">
+            
+                <label for="firstname">
+                    First name
+                    <input type="text" id="firstname" name="firstname" placeholder="First name" required>
+                </label>
+            
+                <label for="lastname">
+                    Last name
+                    <input type="text" id="lastname" name="lastname" placeholder="Last name" required>
+                </label>
+            
+                </div>
+            
+                <label for="dob">Date of birth</label>
+                <input type="date" id="dob" name="dob" required style="width: 49%;">
+            
+                <!-- Button -->
+                <button type="submit">Submit</button>
+            
+            </form>
+        </div>
+    </div>
+</body>
+</html>
